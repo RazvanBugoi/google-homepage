@@ -9,31 +9,31 @@
 </head>
 <body>
     <header>
-        <navbar>
+        <navbar class="navbar">
             <ul class="left_navbar_column">
-                <li>
-                    <a href="#">About</a>
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">About</a>
                 </li>
-                <li>
-                    <a href="#">Store</a>
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">Store</a>
                 </li>
             </ul>
 
             <ul class="right_navbar_column">
-                <li>
-                    <a href="#">Gmail</a>
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">Gmail</a>
                 </li>
-                <li>
-                    <a href="#">Images</a>
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">Images</a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img src="apps.webp" height="20px" width="20px" alt="apps icon navbar">
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">
+                        <img src="apps.webp" height="22px" width="22px" alt="apps icon navbar">
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img src="profile-picture.webp" alt="profile picture" width="40px" height="40">
+                <li class="navbar_list_item">
+                    <a class="navbar_link" href="#">
+                        <img class="profile_picture" src="profile-picture.webp" alt="profile picture" width="35px" height="35px">
                     </a>
                 </li>
             </ul>
@@ -44,7 +44,8 @@
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
         <div class="search_section">
             <img class="loop_icon" src="search.webp" height="15px" width="15px" alt="loop icon">
-            <input type="text">
+            <label for="google_search"></label>
+            <input type="search" name="google_search" id="google_search">
             <img class="microphone_icon" src="microphone.webp" width="15px" height="15px" alt="microphone icon">
         </div>
 
