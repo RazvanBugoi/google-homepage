@@ -43,3 +43,16 @@ ul {
 .profile_picture {
     border-radius: 50%;
 }
+
+
+/* Main Section */
+
+.main { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .main_container {
+    margin-top: 12rem;
+}
