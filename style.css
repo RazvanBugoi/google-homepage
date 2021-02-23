@@ -157,3 +157,16 @@ ul {
 .google_button:focus {
     outline-color: blue;
 }
+
+.google_language {
+    margin-top: 1.6rem;
+}
+
+.google_offered_in {
+    display: inline;
+    font-size: 0.85rem;
+}
+
+.language {
+    margin-left: 0.4rem;
+}
