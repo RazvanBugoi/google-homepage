@@ -94,18 +94,43 @@ ul {
 }
 
 .main .main_container {
-    margin-top: 12rem;
+    margin-top: 12.5rem;
     text-align: center;
 }
 
 .search_section {
-    border: 3px solid gray;
-    width: 33rem;
+    border: 1px solid #dfe1e5;
+    width: 36rem;
     display: flex;
-    padding: 0.6rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
+    margin: 1.8rem auto;
 }
 
 #google_search {
     width: 100%;
+}
+
+.search_input_field {
+    border: none;
+    outline: none;
+    padding: 0.6rem 0;
+    font-size: 1.25rem;
+}
+
+.search_input_field:focus {
+    outline: none;
+    border: none;
+}
+
+.loop_icon {
+    width: 1.4rem;
+}
+
+.microphone_icon {
+    width: 1.75rem;
+}
+
+.loop_icon, 
+.microphone_icon {
+    padding: 0 0.75rem;
 }
