@@ -134,3 +134,26 @@ ul {
 .microphone_icon {
     padding: 0 0.75rem;
 }
+
+.google_button {
+    padding: 0.6rem 1rem;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.google_button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    border-radius: 5px;
+}
+
+.google_button:focus {
+    outline-color: blue;
+}
