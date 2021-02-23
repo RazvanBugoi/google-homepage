@@ -26,6 +26,10 @@ ul {
     padding-left: 1.2rem;
 }
 
+.right_navbar_column {
+    margin-top: 0;
+}
+
 .right_navbar_column .navbar_link {
     font-size: 0.85rem;
     padding-left: 0.25rem;
@@ -40,9 +44,45 @@ ul {
     color: #222;
 }
 
+.navbar_link:hover {
+    border-bottom: 1px solid #222;
+}
+
+.google_apps_icon {
+    position: relative;
+    top: 0.5rem;
+    left: 0.25rem;
+    visibility: visible;
+}
+
+.google_apps_icon:hover {
+    border:none;
+}
+
+.google_profile_picture:hover {
+    border: none;
+}
+
 .profile_picture {
     border-radius: 50%;
 }
+
+.wrapping_circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+    visibility: hidden;
+}
+
+.wrapping_circle:hover {
+    visibility: visible;
+}
+
+.profile_picture:hover {
+    box-shadow: 0 0 0 3px rgba(60,64,67,0.08);
+}
+
 
 
 /* Main Section */
