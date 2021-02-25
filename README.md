@@ -5,8 +5,8 @@
 Things that I have learned during this project include: 
 
 - creating a navbar and a footer section;
-- centering elements vertically and horizontally with flexbox;
-- adding a background color to elements;
+- centring elements vertically and horizontally with flexbox;
+- adding a background colour to elements;
 - changing the properties of an element on different states (hover, focus);
 - using semantic HTML for the best of my current abilities; 
 
